@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('home/login');
 });
+
+// contents routes https://qiita.com/sympe/items/9297f41d5f7a9d91aa11
+Route::resource('contents', 'ContentsController',  ['only' => ['index','create','store']]);

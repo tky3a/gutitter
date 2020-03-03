@@ -4,9 +4,9 @@
   <title>Gutitter</title>
 
   <!-- CSS  -->
-  <link href="css/prism.css" rel="stylesheet">
-  <link href="css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{{ asset('css/prism.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/ghpages-materialize.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="{{ asset('css/materialize.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{{ asset('css/style.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{{ asset('css/custom.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
